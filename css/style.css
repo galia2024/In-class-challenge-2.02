@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    text-align: center;
+}
+
+#box {
+    background-color: lightblue;
+    width: 200px; 
+    height: 200px; 
+    margin: 20px auto; 
+    
+}
+
+
+.circle {
+    border-radius: 50%; /* Makes the box a circle */
+}
+
+
+#reset {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: lightcoral;
+    color: white;
+}
+
+
