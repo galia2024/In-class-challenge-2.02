@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('#box').hide();
 
     $('#toggle').click(function(event) {
-        $('#box').css('background-color', 'lightblue'); 
+        $('#box').css('background-color', 'violet'); 
         $('#box').toggle();
         event.stopPropagation(); 
     });
